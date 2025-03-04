@@ -1,0 +1,22 @@
+body{
+  margin: 0px;
+  background-color: #fff;
+  
+}
+canvas{
+  width: 100%;
+  /*filter: drop-shadow(0px 0px 1px #555);*/
+  /*filter: drop-shadow(0 0 6px #ccc);*/
+}
+  
+.space-mono-regular {
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.space-mono-bold {
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+  font-style: normal;
+}
