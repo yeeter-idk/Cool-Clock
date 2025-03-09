@@ -34,7 +34,7 @@ let minCounter = new wordDisplay(["012345", "0123456789"])
 let hours = 0
 let hourCounter = new wordDisplay(["01", "0123456789"])
 
-let testDisplay = newStringRotator("Made by Laurence Ian M. Moreno Designed by Laurence Ian M. Moreno Laurence has a big dick")
+let testDisplay = newStringRotator("Made by Laurence Ian M. Moreno Designed by Laur")
 
 function updateTime(first = false) {
   let today = new Date()
@@ -96,7 +96,7 @@ function loop() {
   
   drawClock(centerX-(6.8*fontWidth)/2, (height/2)+fontHeight/2)
   
-  testDisplay.set(Math.floor(frame/30), 10, 100)
+  //testDisplay.set(Math.floor(frame/30), 10, 100)
   
   frame++
   if(frame%60==0){daySecs++}
